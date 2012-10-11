@@ -1,0 +1,11 @@
+bool GameObject.active { get; set; }
+
+the active property of a gameobject influences which events get sent to the components on this gameobjects, and to all the children of this gameobject.
+more useful information goes here, this is all just placeholder stuff anyway.
+
+<example>
+function Start()
+{
+  active = false;
+}
+</example>
